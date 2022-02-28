@@ -1,0 +1,690 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Daily meditations]</title>
+            <author>Pain, Philip, d. 1668?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A90629</idno>
+            <idno type="STC">Wing P191A</idno>
+            <idno type="STC">ESTC W19199</idno>
+            <idno type="EEBO-CITATION">45097883</idno>
+            <idno type="OCLC">ocm 45097883</idno>
+            <idno type="VID">171462</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A90629)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 171462)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2575:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Daily meditations]</title>
+                  <author>Pain, Philip, d. 1668?</author>
+                  <author>M. J.</author>
+               </titleStmt>
+               <extent>16, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[Boston, Mass. :</pubPlace>
+                  <date>1682]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Author, title, imprint suggested by Wing.</note>
+                  <note>"A postscript to the reader" signed: M.J.</note>
+                  <note>Imperfect: lacking t.p. and all before p. [5], p. 9-12.</note>
+                  <note>Reproduction of original in the John Carter Brown Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Death --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="meditations">
+            <gap reason="missing" resp="#UOM" extent="4+ pages">
+               <desc>〈4… pages missing〉</desc>
+            </gap>
+            <pb facs="tcp:171462:1"/>
+            <!-- PDF PAGE 58 -->
+            <pb facs="tcp:171462:2"/>
+            <!-- PDF PAGE 59 -->
+            <div n="2" type="day">
+               <head>July 23. The ſecond day</head>
+               <lg n="17">
+                  <head>
+                     <hi>Meditation</hi> 17.</head>
+                  <l>Whilſt in this world I ſtay, ſome hopes have I</l>
+                  <l>That I ſhall reign in Heaven eternallie:</l>
+                  <l>But when my time is paſt, and I am gone,</l>
+                  <l>There's no hope left for me to build upon.</l>
+                  <l>Lord, grant me full aſſurance whilſt that I</l>
+                  <l>Am here, ſo willing I ſhall be to dye.</l>
+               </lg>
+               <lg n="18">
+                  <head>
+                     <hi>Meditation</hi> 18.</head>
+                  <l>We are but babes of yeſterday, and we</l>
+                  <l>Are ſons and daughters of Mortalitie.</l>
+                  <l>From duſt we came, to duſt we muſt again,</l>
+                  <l>And to the grave with ſpeed we fly amain.</l>
+                  <l>Lord, let the thoughts of death poſſeſs my heart</l>
+                  <l>That ſo Thee and my Soul may never part.</l>
+               </lg>
+               <lg n="19">
+                  <head>
+                     <hi>Meditation</hi> 19</head>
+                  <l>How bruitiſh, Oh how ſenſleſs are all thoſe,</l>
+                  <l>Who to the world do ſo themſelves diſpoſe,</l>
+                  <l>As if there were no God to ſerve, no Death</l>
+                  <l>That's coming to deprive them of their breath</l>
+                  <l>Lord, help me ſo to live, that I may bee</l>
+                  <l>Never forgetful of my Death or Thee.</l>
+               </lg>
+               <lg n="20">
+                  <head>
+                     <hi>Meditation</hi> 20</head>
+                  <l>How loth, how backward are we all to leave</l>
+                  <l>This tranſitory world? Let Death bereave</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> of thoſe Mundane things, yet if we ſtill</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ſolve to live and die to Chriſt, what ill</l>
+                  <l>Can happen to us? Lord, before I die</l>
+                  <l>Let me a better Kingdom farre eſpy.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>As the great God ſtill addes unto my dayes,</hi>
+                  </l>
+                  <l>
+                     <hi>It's but new matter for me him to praiſe.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="3" type="day">
+               <pb n="6" facs="tcp:171462:3"/>
+               <!-- PDF PAGE 60 -->
+               <head>July 24. The third day.</head>
+               <lg n="21">
+                  <head>
+                     <hi>Meditation</hi> 21.</head>
+                  <l>How often have I view'd the graves, and gone</l>
+                  <l>Unto that place, and yet returned home</l>
+                  <l>Again unto my houſe: The time will bee</l>
+                  <l>When I muſt go, but no returning ſee.</l>
+                  <l>Lord, give me ſo much grace, that I may be</l>
+                  <l>Ever-more mindful of Eternitie.</l>
+               </lg>
+               <lg n="22">
+                  <head>
+                     <hi>Meditation</hi> 22.</head>
+                  <l>What mean thoſe ſhow'rs, thoſe drops that from on hig<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>Deſcend to call men to Eternity?</l>
+                  <l>Both Young and Old, no Sex is ſpar'd; Oh why?</l>
+                  <l>What is the cauſe of our Mortality?</l>
+                  <l>Lo here it is; a bleſſed God we have</l>
+                  <l>Offended, therefore we muſt to the grave.</l>
+               </lg>
+               <lg n="23">
+                  <head>
+                     <hi>Meditation</hi> 23.</head>
+                  <l>Death ſtrikes the Young man, and the Old man muſt</l>
+                  <l>Yield to Death's ſtroke, and return to the duſt:</l>
+                  <l>Nor Strength, nor Beauty, Riches, Honours, lent</l>
+                  <l>But for a while, cannot our death prevent.</l>
+                  <l>Oh how ſhould we then uſe theſe things below,</l>
+                  <l>That muſt be left when we from hence do go?</l>
+               </lg>
+               <lg n="24">
+                  <head>
+                     <hi>Meditation</hi> 24.</head>
+                  <l>Man's life it is but lent him here, and he</l>
+                  <l>Is but a debtor to Mortalitie</l>
+                  <l>Thoſe fading Comforts that below we have</l>
+                  <l>Or do enjoy, will leave as at the grave.</l>
+                  <l>Lord, grant that when my Comforts all are gone</l>
+                  <l>I may with Thee have ſweet Communion.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>This day is paſt, God mercy ſhews to me,</hi>
+                  </l>
+                  <l>
+                     <hi>Who am a Duſt heap of Mortalitie.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="4" type="day">
+               <pb n="7" facs="tcp:171462:3"/>
+               <!-- PDF PAGE 60 -->
+               <head>July 25. The 4th. day.</head>
+               <lg n="25">
+                  <head>
+                     <hi>Meditation</hi> 25.</head>
+                  <l>Alas poor Death, where does thy great ſtrength lye?</l>
+                  <l>'Tis true, I'm Mortal, yet I cannot dye.</l>
+                  <l>I tell thee, if I dye in Chriſt, it is</l>
+                  <l>The way thou ſhew'ſt me to eternal bliſs.</l>
+                  <l>By death I live, if that I live to Chriſt,</l>
+                  <l>And then thou'lt ſay the mark I have not miſt.</l>
+               </lg>
+               <lg n="26">
+                  <head>
+                     <hi>Meditation</hi> 26.</head>
+                  <l>Alas, what's <hi>Sorrow?</hi> 'tis our portion here;</l>
+                  <l>The Chriſtian's portion, Trouble, Grief, and Fear;</l>
+                  <l>He is <hi>The Man</hi> of ſorrows here below</l>
+                  <l>Of all the men on earth; yet let us know,</l>
+                  <l>Chriſt left his Grave-clothes, that we might when grief</l>
+                  <l>Draws tears, or blood, not want an Handkerchief.</l>
+               </lg>
+               <lg n="27">
+                  <head>
+                     <hi>Meditation</hi> 27.</head>
+                  <l>Is Death ſo formidable? Can the Chance</l>
+                  <l>Of one poor day change our freſh Countenance?</l>
+                  <l>Is there ſo much in Death, that we ſhould be</l>
+                  <l>Like Children frighted at our deſtinie?</l>
+                  <l>Of Heaven give me aſſurance (Lord) and I</l>
+                  <l>Shall ne're believe Death looks ſo dreadfully.</l>
+               </lg>
+               <lg n="28">
+                  <head>
+                     <hi>Meditation</hi> 28.</head>
+                  <l>Could I in greatneſs farre ſurmount the skie,</l>
+                  <l>Or yet in glory could the Sun out-vie;</l>
+                  <l>Could I be more than any man that lives,</l>
+                  <l>Great, Fair, Rich, Wiſe, all in Superlatives:</l>
+                  <l>Yet if I were ſtill Mortal, there would be</l>
+                  <l>A debt ſtill to be paid to death by me.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Lord, as thou giveſt me more hours to live,</hi>
+                  </l>
+                  <l>
+                     <hi>So with it, Oh do thou thy grace me give.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="5" type="day">
+               <pb n="8" facs="tcp:171462:4"/>
+               <!-- PDF PAGE 61 -->
+               <head>July 26th. The 5th. day</head>
+               <lg n="29">
+                  <head>
+                     <hi>Meditation</hi> 29.</head>
+                  <l>How mutable is every thing that here</l>
+                  <l>Below we do enjoy? with how much fear</l>
+                  <l>And trouble are thoſe gilded Vanities</l>
+                  <l>Attended, that ſo captivate our eyes?</l>
+                  <l>Oh, who would truſt this World, or prize what's in it,</l>
+                  <l>That gives, and takes, and changes in a minute?</l>
+               </lg>
+               <lg n="30">
+                  <head>
+                     <hi>Meditation</hi> 30.</head>
+                  <l>Sure every ſoul in this world hath its day</l>
+                  <l>Of grace, and if he will improve it, may.</l>
+                  <l>The time will come, when it ſhall have an end,</l>
+                  <l>Ev'n when we muſt unto the grave deſcend.</l>
+                  <l>Lord, help me now to know the things that do</l>
+                  <l>Belong unto my peace, and then purſue.</l>
+               </lg>
+               <lg n="31">
+                  <head>
+                     <hi>Meditation</hi> 31.</head>
+                  <l>We have no Licenſe from our God to waſte</l>
+                  <l>One day, one hour, one moment, that do haſte</l>
+                  <l>So ſwiftly from us in our ſinful pleaſures,</l>
+                  <l>But rather to lay up for laſting treaſures.</l>
+                  <l>Lord, ſpare me yet a little, that I may</l>
+                  <l>Prepare for Death, and for the Judgment-day.</l>
+               </lg>
+               <lg n="32">
+                  <head>
+                     <hi>Meditation</hi> 32.</head>
+                  <l>The damned now in Hell, that there do ly</l>
+                  <l>In endleſs flames, that howl, and weep, and cry</l>
+                  <l>For anguiſh great, this is their deepeſt Crime,</l>
+                  <l>Heart-vexing trouble, <hi>Oh Miſpence of Time!</hi>
+                  </l>
+                  <l>Oh who would ruſh into thoſe flames of Fire,</l>
+                  <l>That of miſpending time they may enquire?</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Lord, let thy Terrours every day cauſe me</hi>
+                  </l>
+                  <l>
+                     <hi>To prepare for my end, and ready be.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="3" type="day">
+               <gap reason="missing" extent="4 pages">
+                  <desc>〈4 pages missing〉</desc>
+               </gap>
+               <pb n="13" facs="tcp:171462:4"/>
+               <!-- PDF PAGE 61 -->
+               <head>July 31. The third day.</head>
+               <lg n="49">
+                  <head>
+                     <hi>Meditation</hi> 49.</head>
+                  <l>In Heaven are eternal joyes; and ſure</l>
+                  <l>In that place there are Remedies to cure</l>
+                  <l>Our here Sin-ſick'ned Souls: but Oh ſhall I</l>
+                  <l>Be made a Patient of this Remedy?</l>
+                  <l>Lord, I believe a Heaven there is; but this</l>
+                  <l>The Queſtion is, <hi>Shall I enjoy that bliſs?</hi>
+                  </l>
+               </lg>
+               <lg n="50">
+                  <head>
+                     <hi>Meditation</hi> 50.</head>
+                  <l>In Hell are Torments, Torments without end;</l>
+                  <l>And them I muſt endure, if that no friend</l>
+                  <l>I have of JESUS. O my Soul, muſt I</l>
+                  <l>Go from <hi>PAIN</hi> here, to Pain eternally?</l>
+                  <l>I know there is a Hell: Lord, grant that I</l>
+                  <l>May go from Earth to Heaven when I die.</l>
+               </lg>
+               <lg n="51">
+                  <head>
+                     <hi>Meditation</hi> 51.</head>
+                  <l>My Soul tell me, Are there not many that</l>
+                  <l>Do wiſh for Heaven, and yet miſs the Gate?</l>
+                  <l>How many do (with <hi>Balaam</hi>) wiſh that they</l>
+                  <l>May depart like a Saint at dying day?</l>
+                  <l>Lord, let me to be like them here deſire,</l>
+                  <l>Upon this earth, as when they do expire.</l>
+               </lg>
+               <lg n="52">
+                  <head>
+                     <hi>Meditation</hi> 52.</head>
+                  <l>How many are there that may take their harps</l>
+                  <l>And hang upon the willows; mournful hearts</l>
+                  <l>Would beſt become ſuch as muſt go from hence,</l>
+                  <l>And then in Hell have laſting reſidence.</l>
+                  <l>O Lord, how little do I think on this,</l>
+                  <l>That I may be one that may miſs of Bliſs?</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>I am (I ſee) ſtill Mercies Monument;</hi>
+                  </l>
+                  <l>
+                     <hi>For more, one day is ſtill unto me lent.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="4" type="day">
+               <pb n="14" facs="tcp:171462:5"/>
+               <!-- PDF PAGE 62 -->
+               <head>Auguſt 1. The 4th day.</head>
+               <lg n="53">
+                  <head>
+                     <hi>Meditation</hi> 53.</head>
+                  <l>How often ſhould we think of this, that we</l>
+                  <l>Muſt ere long yield to Death's ſupremacie?</l>
+                  <l>The time ere long will come, when we ſhall be</l>
+                  <l>No more; and ſhortly we no time ſhall ſee.</l>
+                  <l>O that I might be then prepar'd for this</l>
+                  <l>So great a Change, and be receiv'd to bliſs.</l>
+               </lg>
+               <lg n="54">
+                  <head>
+                     <hi>Meditation</hi> 54</head>
+                  <l>The ſons of men are prone to forget Death,</l>
+                  <l>And put it farre away from them, till breath</l>
+                  <l>Begins to tell them they muſt to the grave;</l>
+                  <l>And then, Oh what would they give but to have</l>
+                  <l>One year of reſpite? Help me, Lord, to know</l>
+                  <l>As I move here, ſo my time moves alſo.</l>
+               </lg>
+               <lg n="55">
+                  <head>
+                     <hi>Meditation</hi> 55.</head>
+                  <l>Whilſt we live here, we have the bleſſed voice</l>
+                  <l>Of God by Miniſters, the bleſſed noiſe</l>
+                  <l>And ſound of <hi>Aarons</hi> Bells: the time will be</l>
+                  <l>When we no more of this ſhall hear or ſee.</l>
+                  <l>Help, Lord, that <hi>I</hi> may then improve the ſame</l>
+                  <l>Unto the praiſe and glory of thy Name.</l>
+               </lg>
+               <lg n="56">
+                  <head>
+                     <hi>Meditation</hi> 56.</head>
+                  <l>The time will be, when we ſhall be <hi>No more:</hi>
+                  </l>
+                  <l>Where will the World be then? 'Twill be <hi>No more.</hi>
+                  </l>
+                  <l>Where will our Comforts be? They'll be <hi>No more.</hi>
+                  </l>
+                  <l>Where will our Friends be then? They'll be <hi>No more</hi>
+                  </l>
+                  <l>Lord, grant me then thy grace, leſt that <hi>No more</hi>
+                  </l>
+                  <l>Do ſeiſe upon me, and I be <hi>No more.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>No more! <hi>O ſolemn ſound! This night I may</hi>
+                  </l>
+                  <l>
+                     <hi>Be struck by Death, and never ſee the day.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="5" type="day">
+               <pb n="15" facs="tcp:171462:5"/>
+               <!-- PDF PAGE 62 -->
+               <head>Auguſt 2. The 5th day.</head>
+               <lg n="57">
+                  <head>
+                     <hi>Meditation</hi> 57.</head>
+                  <l>How tremblingly do creatures here appear</l>
+                  <l>Before an earthly Judge? what dreadful fear</l>
+                  <l>Does ſeiz upon them at the Bar of him,</l>
+                  <l>Who likewiſe muſt arraigned be for ſin?</l>
+                  <l>Lord, grant me here thy grace, and ſo may I</l>
+                  <l>With joy at laſt behold thy Majeſty.</l>
+               </lg>
+               <lg n="58">
+                  <head>
+                     <hi>Meditation</hi> 58.</head>
+                  <l>The day of death's a coming; after that</l>
+                  <l>A day of Judgment will diſcriminate,</l>
+                  <l>And put a difference 'twixt the Saints and thoſe</l>
+                  <l>Who do Gods Wayes and Precepts here oppoſe.</l>
+                  <l>Lord, let me be prepared for that day,</l>
+                  <l>That ſo with joy (Lord) thee behold I may.</l>
+               </lg>
+               <lg n="59">
+                  <head>
+                     <hi>Meditation</hi> 59.</head>
+                  <l>The hand of death ſtrikes ſure, there's nothing can</l>
+                  <l>Obſtruct, or hinder it; and every man,</l>
+                  <l>Whether he will or no, muſt know that he</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> into duſt moſt ſurely turned be.</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> how ſhould I prepare for this ſince 'tis</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſure and certain which I cannot miſs.</l>
+               </lg>
+               <lg n="60">
+                  <head>
+                     <hi>Meditation</hi> 60.</head>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> is a ſurly Sergeant, no reſpect</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> to perſons, does their tears reject;</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> will blind his eyes, away we muſt,</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> call, and return to the duſt.</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> grant that I may death behold with joy,</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>o my ſoul let it bring no annoy.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> minute gives my time a ſhorter time:</hi>
+                  </l>
+                  <l>
+                     <hi>
+                        <gap reason="illegible" resp="#UOM" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap> prepare for Death is a ſad crime.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="6" type="day">
+               <pb n="16" facs="tcp:171462:6"/>
+               <!-- PDF PAGE 63 -->
+               <head>Auguſt 3. The 6th. day</head>
+               <lg n="61">
+                  <head>
+                     <hi>Meditation</hi> 61.</head>
+                  <l>There's nothing that I do, or act, but ſayes</l>
+                  <l>That I am Mortal with an Emphaſis.</l>
+                  <l>Each day ſpeaks to me, and gives me to know,</l>
+                  <l>That I ere it be long away muſt go.</l>
+                  <l>Let me an intereſt have in Chriſt, and I</l>
+                  <l>Shall over Death triumph with victory.</l>
+               </lg>
+               <lg n="62">
+                  <head>
+                     <hi>Meditation</hi> 62.</head>
+                  <l>How is it that I am ſo careleſs here,</l>
+                  <l>And never mind how I my Courſe do ſteer</l>
+                  <l>For an Eternal Port? and never think</l>
+                  <l>That at the laſt my leaky Ship will ſink?</l>
+                  <l>Lord, guard me from thoſe Pirats that would catch</l>
+                  <l>My Soul, do thou (Lord) be their over-match.</l>
+               </lg>
+               <lg n="63">
+                  <head>
+                     <hi>Meditation</hi> 63.</head>
+                  <l>Lord, what's the reaſon I'm ſo loth to hear</l>
+                  <l>Of the great day of Death? what means this fear,</l>
+                  <l>That at the thoughts of death o're-ſpreads me, and</l>
+                  <l>Prompts me to give a willing Countermand?</l>
+                  <l>Jeſus, 'tis to be fear'd I never ſtood</l>
+                  <l>As one that's intereſted in thy Blood.</l>
+               </lg>
+               <lg n="64">
+                  <head>
+                     <hi>Meditation</hi> 64</head>
+                  <l>What makes the Saints on earth deſire to be</l>
+                  <l>Diſſolved, and that bleſſed day to ſee?</l>
+                  <l>What makes them whilſt they're here below to</l>
+                  <l>Againſt this body of Corruption?</l>
+                  <l>Lord, they know not when they from henc<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>On them a glorious Kingdom thou'lt beſtow</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Lord, if my Soul this night away thou take</hi>
+                  </l>
+                  <l>
+                     <hi>Let me by morning then in Heav'n awake</hi>
+                  </l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="postscript_to_the_reader">
+            <pb facs="tcp:171462:6"/>
+            <!-- PDF PAGE 63 -->
+            <head>A POSTCRIPT TO THE READER.</head>
+            <lg>
+               <l>TIs not to ſhew the Author's <hi>Wit,</hi> but <hi>Grace,</hi>
+               </l>
+               <l>That theſe few <hi>Poems</hi> are expos'd to view;</l>
+               <l>In which thou may'st behold Youths <hi>flow'ry face</hi>
+               </l>
+               <l>Set toward <hi>Sion,</hi> ſeeking things <hi>moſt true:</hi>
+               </l>
+               <l>Contemning worldly <hi>Vain's,</hi> but prizing high</l>
+               <l>A place i'th' Manſions of <hi>Eternity.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Here was hours ſpent indeed! and yet <hi>not ſpent;</hi>
+               </l>
+               <l>Time thus improv'd, is to <hi>Redeem the time.</hi>
+               </l>
+               <l>For <hi>Youth,</hi> Death's company thus to frequent,</l>
+               <l>(As if a dweller in his <hi>ſhady Clime</hi>)</l>
+               <l>Does prove a thing ſo rare, ſo ſeldome known,</l>
+               <l>That ſcarce <hi>Old Age</hi> can call this act <hi>its own.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>By hourly meditating on the <hi>Grave.</hi>
+               </l>
+               <l>He came acquainted with that <hi>darkſome Cell;</hi>
+               </l>
+               <l>Knew that from going thither none could ſave,</l>
+               <l>(We on the Brink of <hi>Machpelah</hi> do dwell)</l>
+               <l>Therefore prepar'd with ſedulous deſire</l>
+               <l>To take his Bed there, when he ſhould expire.</l>
+            </lg>
+            <pb facs="tcp:171462:7"/>
+            <!-- PDF PAGE 64 -->
+            <lg>
+               <l>And though our <hi>Saviour</hi> with his <hi>Odours</hi> ſweet</l>
+               <l>Hath to the Faithful it <hi>perfum'd;</hi> yet there</l>
+               <l>They can't abide for aye: away muſt fleet</l>
+               <l>To <hi>Judgment,</hi> when the <hi>Great Judge</hi> ſhall appear.</l>
+               <l>This of he thought upon: <hi>This, this</hi> ſhould be</l>
+               <l>Our ſtanding thought, when all things elſe do flee.</l>
+            </lg>
+            <lg>
+               <l>Of <hi>Hell</hi> he's not forgetful; but with dread</l>
+               <l>And trembling <hi>thinks</hi> &amp; <hi>ſpeaks</hi> thereof: doth give</l>
+               <l>Warning to <hi>living ones,</hi> they ſhould not plead</l>
+               <l>For <hi>Sin,</hi> which brings a Hell without reprieve:</l>
+               <l>Excites to <hi>Prayer, Repentance,</hi> and to ſtay</l>
+               <l>By <hi>Faith on Chriſt</hi> for Life which last for ay.</l>
+            </lg>
+            <lg>
+               <l>But his moſt <hi>ſweeteſt Contemplation</hi>
+               </l>
+               <l>Takes wing below, and up to Heaven doth ſoare:</l>
+               <l>There's <hi>matter</hi> for deep <hi>Meditation,</hi>
+               </l>
+               <l>Where <hi>Pleaſures</hi> do abide for <hi>evermore,</hi>
+               </l>
+               <l>Which neither <hi>Eye</hi> e're ſaw, <hi>Ear</hi> heard, nor can</l>
+               <l>Enter into the <hi>Heart</hi> of any man.</l>
+            </lg>
+            <lg>
+               <l>Let the <hi>Example</hi> of this <hi>Pilot young,</hi>
+               </l>
+               <l>(So skill'd in <hi>Spiritual Salling</hi>) thee inform</l>
+               <l>To ſteer thy <hi>Courſe</hi> through <hi>Baca's Vale,</hi> along</l>
+               <l>To this <hi>fair Haven,</hi> (fear nor <hi>Wind,</hi> nor <hi>Storm</hi>)</l>
+               <l>Till thou arrive with him, in whom did dwell</l>
+               <l>
+                  <hi>Some good thing toward the God of Iſrael.</hi>
+               </l>
+            </lg>
+            <closer>
+               <signed>M. J.</signed>
+            </closer>
+         </div>
+      </back>
+   </text>
+</TEI>
